@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #696969;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+form {
+    max-width: 350px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 5px 10px 2px rgba(211,211,211,1);
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+
+input {
+    font-size: 2em;
+    width: 50%;
+    border: 2px solid #708090;
+    border-radius: 5px;
+    margin: 10px 0 25px 0;
+    text-align: center;
+}
+
+button {
+    font-size: 1.5em;
+    color: white;
+    background-color: #1E90FF;
+    padding: 10px 25px;
+    margin: 10px 0 20px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color:#0000CD;
+}
+
+#total {
+    font-size: 2em;
+}
+
+#total-amount {
+    font-weight: bold;
+    color: #006400;
+}
