@@ -1,4 +1,4 @@
-function calculator() {
+function calculate() {
     const totalAmount = document.getElementById("total-amount");
     const principalInput = document.getElementById("principal");
     const rateInput = document.getElementById("rate");
@@ -26,8 +26,4 @@ function calculator() {
 
     const result = principal * Math.pow((1 + rate / 1), 1 * years);
     totalAmount.textContent = result.toLocaleString("en-US", {style: "currency", currency: "USD"});
-}
-
-function clickMe() {
-    console.log("clicked!");
 }
